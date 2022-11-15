@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to $days Days of flutter With " + name),
+          child: Text("Welcome to $days Days of flutter With $name " + name),
         ),
       ),
       drawer: Drawer(),

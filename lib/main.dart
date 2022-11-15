@@ -1,4 +1,5 @@
-import 'package:day1/home_page.dart';
+import 'package:day1/pages/home_page.dart';
+import 'package:day1/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,8 +11,21 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    bringVegetables(thaila: true);
     return MaterialApp(
-      home: HomePage(),
+      themeMode: ThemeMode.light,
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      // themeMode: ThemeMode.dark,
+      // darkTheme: ThemeData(
+      //   brightness: Brightness.dark,
+      // ),
+      initialRoute: "/login",
+      routes: {
+        "/": (context) => HomePage(),
+        "/login": (context) => loginPage(),
+      },
     );
   }
+
+  bringVegetables({required bool thaila, int rupees = 100}) {}
 }
