@@ -34,10 +34,10 @@ class _loginPageState extends State<loginPage> {
           key: _formKey,
           child: Column(children: [
             SizedBox(
-              height: 20.0,
+              height: 30.0,
             ),
             Image.asset(
-              "assets/images/login_page.png",
+              "assets/images/hello.png",
               fit: BoxFit.cover,
               height: 250,
             ),
@@ -120,19 +120,6 @@ class _loginPageState extends State<loginPage> {
                       ),
                     ),
                   ),
-                  // ElevatedButton(
-                  //   onPressed: () {
-                  //     Navigator.pushNamed(context, MyRoutes.homeRoute);
-                  //   },
-                  //   style: TextButton.styleFrom(minimumSize: Size(120, 42.5)),
-                  //   child: Text(
-                  //     "Login",
-                  //     style: TextStyle(
-                  //       fontSize: 18,
-                  //       fontWeight: FontWeight.bold,
-                  //     ),
-                  //   ),
-                  // )
                 ],
               ),
             )
