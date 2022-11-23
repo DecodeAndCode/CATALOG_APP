@@ -1,4 +1,4 @@
-# day1
+# Catalog_app
 
 A new Flutter project.
 
