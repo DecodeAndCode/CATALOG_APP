@@ -1,0 +1,68 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "iphone 14 pro",
+            "desc": "Apple iphone 16 Gen",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+        },
+        {
+            "id": 1,
+            "name": "iphone 14 pro",
+            "desc": "Apple iphone 16 Gen",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+        },
+        {
+            "id": 1,
+            "name": "iphone 14 pro",
+            "desc": "Apple iphone 16 Gen",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+        },
+        {
+            "id": 1,
+            "name": "iphone 14 pro",
+            "desc": "Apple iphone 16 Gen",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+        },
+        {
+            "id": 1,
+            "name": "iphone 14 pro",
+            "desc": "Apple iphone 16 Gen",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+        },
+        {
+            "id": 1,
+            "name": "iphone 14 pro",
+            "desc": "Apple iphone 16 Gen",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+        },
+        {
+            "id": 1,
+            "name": "iphone 14 pro",
+            "desc": "Apple iphone 16 Gen",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+        },
+        {
+            "id": 1,
+            "name": "iphone 14 pro",
+            "desc": "Apple iphone 16 Gen",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+        }
+    ]
+}
