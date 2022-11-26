@@ -1,0 +1,12 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "iphone 14 pro",
+            "desc": "Apple iphone 16 Gen",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi0.wp.com%2Fwww.smartprix.com%2Fbytes%2Fwp-content%2Fuploads%2F2022%2F09%2Fd.jpg%3Fssl%3D1&imgrefurl=https%3A%2F%2Fwww.smartprix.com%2Fbytes%2Fapple-iphone-14-series-pre-order-details-for-india%2F&tbnid=8zfSKCsuAGALUM&vet=12ahUKEwi60rG0icz7AhX6oNgFHVBvCjEQMygKegUIARC3Ag..i&docid=eL-T62VV23dUdM&w=653&h=914&q=iphone%2014%20pro%20max&client=safari&ved=2ahUKEwi60rG0icz7AhX6oNgFHVBvCjEQMygKegUIARC3Ag"
+        }
+    ]
+}
