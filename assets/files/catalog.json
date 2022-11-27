@@ -1,5 +1,5 @@
 {
-    "products":[
+    "products": [
         {
             "id": 1,
             "name": "iPhone 14 Pro",
@@ -22,7 +22,7 @@
             "desc": "M2 Chip",
             "price": 1499,
             "color": "#33505a",
-            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-midnight-gallery2-20220606?wid=4000&hei=3072&fmt=jpeg&qlt=90&.v=1653668115828"
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-midnight-select-20220606?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1653084303665"
         },
         {
             "id": 4,
@@ -38,7 +38,7 @@
             "desc": "M1 chip 5th Generation",
             "price": 599,
             "color": "#33505a",
-            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-air-select-wifi-purple-202203?wid=940&hei=1112&fmt=png-alpha&.v=1645066730601"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2cygSMJmfuDJyVon0zBkFUEVaPkkx9pB4SMsVVmmjGxpjSFYWzvcXaUfuiJz9leYFQxE&usqp=CAU"
         },
         {
             "id": 6,
@@ -62,7 +62,7 @@
             "desc": "M1 chip",
             "price": 1299,
             "color": "#33505a",
-            "image": "https://www.apple.com/v/imac-24/g/images/specs/size_weight__fs19d9uqzyi6_large_2x.jpg"
+            "image": "https://www.apple.com/v/imac-24/e/images/overview/color_front_green__eb8qbnemmre6_large_2x.jpg"
         }
     ]
 }
