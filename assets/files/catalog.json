@@ -2,67 +2,67 @@
     "products":[
         {
             "id": 1,
-            "name": "iphone 14 pro",
-            "desc": "Apple iphone 16 Gen",
+            "name": "iPhone 14 Pro",
+            "desc": "Apple iphone 16 Generation",
             "price": 999,
             "color": "#33505a",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShA2srWriZy55ZYpz5oSCbDn9G6aNcWkItuA&usqp=CAU"
         },
         {
-            "id": 1,
-            "name": "iphone 14 pro",
-            "desc": "Apple iphone 16 Gen",
-            "price": 999,
+            "id": 2,
+            "name": "Apple AirPods Pro",
+            "desc": "Apple AirPods Pro (2nd Generation)",
+            "price": 249,
             "color": "#33505a",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQD83_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1660803943973"
         },
         {
-            "id": 1,
-            "name": "iphone 14 pro",
-            "desc": "Apple iphone 16 Gen",
-            "price": 999,
+            "id": 3,
+            "name": "Apple MacBook Air",
+            "desc": "M2 Chip",
+            "price": 1499,
             "color": "#33505a",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-midnight-gallery2-20220606?wid=4000&hei=3072&fmt=jpeg&qlt=90&.v=1653668115828"
         },
         {
-            "id": 1,
-            "name": "iphone 14 pro",
-            "desc": "Apple iphone 16 Gen",
-            "price": 999,
+            "id": 4,
+            "name": "Apple Watch Ultra",
+            "desc": "1st Generation",
+            "price": 799,
             "color": "#33505a",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+            "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQDY3ref_VW_34FR+watch-49-titanium-ultra_VW_34FR_WF_CO+watch-face-49-alpine-ultra_VW_34FR_WF_CO?wid=750&hei=712&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1660713659063%2C1660927566964%2C1660927563656"
         },
         {
-            "id": 1,
-            "name": "iphone 14 pro",
-            "desc": "Apple iphone 16 Gen",
-            "price": 999,
+            "id": 5,
+            "name": "iPad Air",
+            "desc": "M1 chip 5th Generation",
+            "price": 599,
             "color": "#33505a",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-air-select-wifi-purple-202203?wid=940&hei=1112&fmt=png-alpha&.v=1645066730601"
         },
         {
-            "id": 1,
-            "name": "iphone 14 pro",
-            "desc": "Apple iphone 16 Gen",
-            "price": 999,
+            "id": 6,
+            "name": "Apple Pencil",
+            "desc": "Apple Pencil (2nd Generation)",
+            "price": 119,
             "color": "#33505a",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MU8F2?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1540596407165"
         },
         {
-            "id": 1,
-            "name": "iphone 14 pro",
-            "desc": "Apple iphone 16 Gen",
-            "price": 999,
+            "id": 7,
+            "name": "HomePod mini",
+            "desc": "1st Generation",
+            "price": 299,
             "color": "#33505a",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+            "image": "https://www.apple.com/v/homepod-mini/g/images/overview/sound_hero__ci4zlbhkbauu_large_2x.png"
         },
         {
-            "id": 1,
-            "name": "iphone 14 pro",
-            "desc": "Apple iphone 16 Gen",
-            "price": 999,
+            "id": 8,
+            "name": "iMac 24”",
+            "desc": "M1 chip",
+            "price": 1299,
             "color": "#33505a",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLK0I1_MpaYozp8RzC49bvYNsNWNu9AEkAqA&usqp=CAU"
+            "image": "https://www.apple.com/v/imac-24/g/images/specs/size_weight__fs19d9uqzyi6_large_2x.jpg"
         }
     ]
 }
