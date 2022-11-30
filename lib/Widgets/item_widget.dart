@@ -12,12 +12,7 @@ class ItemWidget extends StatelessWidget {
         onTap: () {
           print("${item.name} pressed");
         },
-        leading: Image.network(
-          item.image,
-          // errorBuilder: (context, error, stackTrace) {
-          //   return Text("ERROR");
-          // },
-        ),
+        leading: Image.network(item.image),
         title: Text(item.name),
         subtitle: Text(item.desc),
         trailing: Text(
