@@ -41,10 +41,10 @@ class _HomePageState extends State<HomePage> {
         child: (CatalogModel.items.isNotEmpty)
             ? GridView.builder(
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    crossAxisSpacing: 16,
-                    mainAxisSpacing: 16,
-                  ),
+                  crossAxisCount: 2,
+                  crossAxisSpacing: 16,
+                  mainAxisSpacing: 16,
+                ),
                 itemBuilder: (context, index) {
                   final item = CatalogModel.items[index];
                   return Card(
@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
                         child: Image.network(item.image),
                         footer: Container(
                           child: Text(
-                            item.price.toString(),
+                            "\$" + item.price.toString(),
                             style: TextStyle(color: Colors.white),
                           ),
                           padding: const EdgeInsets.all(10),
@@ -74,8 +74,7 @@ class _HomePageState extends State<HomePage> {
                             color: Colors.black,
                           ),
                         ),
-                      )
-                    );
+                      ));
                 },
                 itemCount: CatalogModel.items.length,
               )
