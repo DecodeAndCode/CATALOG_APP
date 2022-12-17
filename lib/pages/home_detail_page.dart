@@ -70,7 +70,8 @@ class HomeDetailPage extends StatelessWidget {
                     "Elitr sanctus no vero est lorem sed elitr justo. Eirmod eirmod et ut sed sed clita, sea et sed eirmod dolore ipsum clita duo et at. Stet at no magna."
                         .text
                         .textStyle(context.captionStyle)
-                        .make().p16()
+                        .make()
+                        .p16()
                   ],
                 ).py64(),
               ),
