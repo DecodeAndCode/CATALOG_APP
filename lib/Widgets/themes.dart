@@ -26,10 +26,12 @@ class MyTheme {
       buttonColor: lightBulishColor,
       accentColor: Colors.white,
       appBarTheme: AppBarTheme(
-        color: Colors.black,
+        // color: Colors.black,
         elevation: 0.0,
         iconTheme: IconThemeData(color: Colors.white),
-        titleTextStyle: Theme.of(context).textTheme.headline6,
+        textTheme: Theme.of(context).textTheme.copyWith(
+          headline6: context.textTheme.headline6
+        ),
       ));
 
   //colors from hex to color => Vx.hexToColor(code)
