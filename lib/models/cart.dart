@@ -1,6 +1,14 @@
 import 'package:day1/models/catalog.dart';
 
 class CartModel {
+  //Singleton class
+
+  static final cartModel = CartModel._internal();
+
+  CartModel._internal();
+
+  factory CartModel() => cartModel;
+
   // Catalog field
   late CatalogModel _catalog;
 
@@ -19,8 +27,7 @@ class CartModel {
   List<Item> get items => _itemIds.map((id) => _catalog.getById(id)).toList();
 
   //Get total price
-  num get totalprice =>
-      items.fold(0, (total, current) => total + current.price);
+  num get totalPrice => items.fold(0, (total, current) => total + current.price);
 
   // Add Item
   void add(Item item) {
