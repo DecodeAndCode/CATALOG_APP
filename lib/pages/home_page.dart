@@ -1,5 +1,4 @@
 import "dart:convert";
-import 'package:day1/Widgets/themes.dart';
 import 'package:day1/models/catalog.dart';
 import 'package:day1/Widgets/home_widgets/catalog_header.dart';
 import 'package:day1/utils/routes.dart';

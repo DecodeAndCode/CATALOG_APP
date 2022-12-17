@@ -1,4 +1,3 @@
-import 'package:day1/Widgets/themes.dart';
 import 'package:day1/pages/home_detail_page.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';

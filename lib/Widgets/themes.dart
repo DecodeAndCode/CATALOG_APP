@@ -29,9 +29,18 @@ class MyTheme {
         // color: Colors.black,
         elevation: 0.0,
         iconTheme: IconThemeData(color: Colors.white),
-        textTheme: Theme.of(context).textTheme.copyWith(
-          headline6: context.textTheme.headline6
-        ),
+        toolbarTextStyle: Theme.of(context)
+            .textTheme
+            .copyWith(
+              headline6: context.textTheme.headline6,
+            )
+            .bodyText2,
+        titleTextStyle: Theme.of(context)
+            .textTheme
+            .copyWith(
+              headline6: context.textTheme.headline6,
+            )
+            .headline6,
       ));
 
   //colors from hex to color => Vx.hexToColor(code)

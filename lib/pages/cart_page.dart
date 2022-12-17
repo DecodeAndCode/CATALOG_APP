@@ -15,7 +15,7 @@ class CartPage extends StatelessWidget {
       body: Column(
         children: [
           _CartList().p32().expand(),
-          Divider(), 
+          Divider(),
           _CartTotal(),
         ],
       ),
@@ -36,9 +36,14 @@ class _CartTotal extends StatelessWidget {
           "\$9999".text.xl4.color(context.theme.colorScheme.secondary).make(),
           30.widthBox,
           ElevatedButton(
-            onPressed: (){}, 
+            onPressed: () {
+              ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                content: "Buying not supported yet".text.make(),
+              ));
+            },
             style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all(context.theme.buttonColor),
+              backgroundColor:
+                  MaterialStateProperty.all(context.theme.buttonColor),
               shape: MaterialStatePropertyAll(StadiumBorder()),
             ),
             child: "Buy".text.white.make(),
@@ -64,7 +69,7 @@ class __CartListState extends State<_CartList> {
       itemBuilder: (context, index) => ListTile(
         leading: Icon(Icons.done),
         trailing: IconButton(
-          onPressed: (){}, 
+          onPressed: () {},
           icon: Icon(Icons.remove_circle_outline),
         ),
         title: "Item 1".text.make(),
