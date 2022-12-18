@@ -27,7 +27,7 @@ class CartPage extends StatelessWidget {
 }
 
 class _CartTotal extends StatelessWidget {
-  const _CartTotal({super.key});
+  const _CartTotal();
 
   @override
   Widget build(BuildContext context) {

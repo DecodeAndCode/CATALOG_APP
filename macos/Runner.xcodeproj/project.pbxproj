@@ -68,6 +68,7 @@
 		33E51913231747F40026EE4D /* DebugProfile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DebugProfile.entitlements; sourceTree = "<group>"; };
 		33E51914231749380026EE4D /* Release.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Release.entitlements; sourceTree = "<group>"; };
 		33E5194F232828860026EE4D /* AppInfo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppInfo.xcconfig; sourceTree = "<group>"; };
+		65980D60294F1DD300EC736F /* RunnerProfile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunnerProfile.entitlements; sourceTree = "<group>"; };
 		69ADB72626EA0E6D03477E71 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		90A9AB57964C199A984DD8CC /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +143,7 @@
 		33FAB671232836740065AC1E /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				65980D60294F1DD300EC736F /* RunnerProfile.entitlements */,
 				33CC10F02044A3C60003C045 /* AppDelegate.swift */,
 				33CC11122044BFA00003C045 /* MainFlutterWindow.swift */,
 				33E51913231747F40026EE4D /* DebugProfile.entitlements */,
@@ -159,7 +161,6 @@
 				69ADB72626EA0E6D03477E71 /* Pods-Runner.release.xcconfig */,
 				05F60492BC64680AC0A398B2 /* Pods-Runner.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -418,7 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/DebugProfile.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Runner/RunnerProfile.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Runner/Info.plist;
